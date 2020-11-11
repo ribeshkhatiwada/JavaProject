@@ -23,7 +23,6 @@ public class FindSingleNumberINArray {
 
 	public static int compare(int[] arr1, int[] arr2) {
 		boolean contains = false;
-		List<Integer> list = new ArrayList<Integer>();
 		int x =0;
 		if(arr1.length==1) {
 			return arr1[0];
