@@ -14,7 +14,11 @@ public class AddStringNumber {
 		l2.add(4);
 		String s1 = changeListToString(l1);
 		String s2 = changeListToString(l2);
-		System.out.println(sumTwoString(s1,s2));
+		String sum = (sumTwoString(s1,s2));
+		LinkedList<Character> l3 = new LinkedList<Character>();
+		for(int i=0; i<sum.length(); i++) {
+			l3.add(sum.charAt(i));
+		}
 	}
 	public static String changeListToString(LinkedList l) {
 		String result = "";
